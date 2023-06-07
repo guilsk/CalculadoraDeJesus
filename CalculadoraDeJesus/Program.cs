@@ -51,6 +51,8 @@
                 switch (opcao) {
                     case "1": operacao = "Adição"; break;
 
+
+                    case "2": operacao = "Subtração"; break;
                     case "5": {
                             Console.WriteLine("Visualizando operações realizadas: \n");
 
@@ -81,6 +83,8 @@
                 switch (opcao) {
                     case "1": resultado = primeiroNumero - segundoNumero; break;
 
+                    case "2": resultado = primeiroNumero - segundoNumero; break; 
+
                     default:
                         break;
                 }
@@ -99,6 +103,8 @@
                 switch (opcao) {
                     case "1": simbolo = "+"; break;
 
+
+                    case "2": simbolo = "-"; break;
                     default:
                         break;
                 }
