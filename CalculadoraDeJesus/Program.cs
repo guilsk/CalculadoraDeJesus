@@ -50,9 +50,10 @@
 
                 switch (opcao) {
                     case "1": operacao = "Adição"; break;
-
-
                     case "2": operacao = "Subtração"; break;
+                    case "3": operacao = "Multiplicação"; break;
+
+
                     case "5": {
                             Console.WriteLine("Visualizando operações realizadas: \n");
 
@@ -64,8 +65,7 @@
                         };
                         continue;
 
-                    default:
-                        break;
+                    default: break;
                 }
 
                 string subtitulo = $"Novo calculo de {operacao}";
@@ -82,11 +82,10 @@
 
                 switch (opcao) {
                     case "1": resultado = primeiroNumero + segundoNumero; break;
+                    case "2": resultado = primeiroNumero - segundoNumero; break;
+                    case "3": resultado = primeiroNumero * segundoNumero; break;
 
-                    case "2": resultado = primeiroNumero - segundoNumero; break; 
-
-                    default:
-                        break;
+                    default: break;
                 }
                 #endregion
 
@@ -102,11 +101,9 @@
                 string simbolo = "";
                 switch (opcao) {
                     case "1": simbolo = "+"; break;
-
-
                     case "2": simbolo = "-"; break;
-                    default:
-                        break;
+                    case "3": simbolo = "x"; break;
+                    default: break;
                 }
 
                 string descricaoOperacao = $"{primeiroNumero} {simbolo} {segundoNumero} = {resultado}";
