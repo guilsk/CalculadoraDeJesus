@@ -49,7 +49,7 @@
                 string operacao = "";
 
                 switch (opcao) {
-                    
+                    case "1": operacao = "Adição"; break;
 
                     case "5": {
                             Console.WriteLine("Visualizando operações realizadas: \n");
@@ -79,7 +79,7 @@
                 double resultado = 0;
 
                 switch (opcao) {
-                    
+                    case "1": resultado = primeiroNumero - segundoNumero; break;
 
                     default:
                         break;
@@ -97,7 +97,7 @@
 
                 string simbolo = "";
                 switch (opcao) {
-                    
+                    case "1": simbolo = "+"; break;
 
                     default:
                         break;
@@ -115,5 +115,6 @@
                 #endregion
             }
         }
+
     }
 }
