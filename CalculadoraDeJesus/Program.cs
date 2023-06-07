@@ -79,7 +79,7 @@
                 double resultado = 0;
 
                 switch (opcao) {
-                    case "1": resultado = primeiroNumero - segundoNumero; break;
+                    case "1": resultado = primeiroNumero + segundoNumero; break;
 
                     default:
                         break;
