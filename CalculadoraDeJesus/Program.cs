@@ -49,8 +49,8 @@
                 string operacao = "";
 
                 switch (opcao) {
-                    
 
+                    case "2": operacao = "Subtração"; break;
                     case "5": {
                             Console.WriteLine("Visualizando operações realizadas: \n");
 
@@ -79,7 +79,7 @@
                 double resultado = 0;
 
                 switch (opcao) {
-                    
+                    case "2": resultado = primeiroNumero - segundoNumero; break; 
 
                     default:
                         break;
@@ -97,8 +97,8 @@
 
                 string simbolo = "";
                 switch (opcao) {
-                    
 
+                    case "2": simbolo = "-"; break;
                     default:
                         break;
                 }
