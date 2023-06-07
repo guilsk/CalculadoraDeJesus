@@ -109,6 +109,18 @@
                     default: break;
                 }
 
+                //Cdasdasdasdasdas
+                //    dasdasdasdsadas
+                //    dasd
+                //    as
+                //    dasdasdasdsadasasd
+                //    as
+                //    dasdasdasdsadasasdasdasdas
+                //    f
+                //    as
+                //    dasdasdasdsadasas
+                //    da
+
                 string descricaoOperacao = $"{primeiroNumero} {simbolo} {segundoNumero} = {resultado}";
 
                 operacoes.Add(descricaoOperacao);
@@ -119,6 +131,10 @@
 
                 Console.Clear();
                 #endregion
+
+
+
+                
             }
         }
 
